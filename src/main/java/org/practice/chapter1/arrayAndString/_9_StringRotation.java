@@ -1,6 +1,6 @@
-package org.practice.cracking.coding.interview;
+package org.practice.chapter1.arrayAndString;
 
-public class StringRotation {
+public class _9_StringRotation {
     public static void main(String[] args) {
         String s1 = "waterbottle";
         String s2 = "erbottlewat";
