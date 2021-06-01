@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java-practice" />
+        <module name="cracking-coding-interview" />
       </profile>
     </annotationProcessing>
   </component>

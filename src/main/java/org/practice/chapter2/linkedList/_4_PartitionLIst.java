@@ -3,7 +3,7 @@ package org.practice.chapter2.linkedList;
 public class _4_PartitionLIst {
     public static void main(String[] args) throws Exception {
         Node head = new Node(10).append(30).append(50).append(20).append(40);
-        int partition = 10;
+        int partition = 20;
         Node partitionList = partitionList(head, partition);
 
        partitionList.display();
