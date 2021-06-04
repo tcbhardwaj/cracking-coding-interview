@@ -2,13 +2,13 @@ package org.practice.chapter2.linkedList;
 
 public class _5_SumLIst {
     public static void main(String[] args) throws Exception{
-        approach1();
+//        approach1();
         approach2();
     }
 
     public static void approach1() throws Exception {
-        Node list1 = new Node(7).append(1).append(6); //617
-        Node list2 = new Node(5).append(9).append(9); //995 = 1612 => 2-> 1-> 7->
+        Node list1 = new Node(9).append(7).append(8); //879
+        Node list2 = new Node(6).append(8).append(5); //586 = 1465 => 5-> 6-> 4-> 1->
         Node list3 = null;
         Node lastNode = null;
         int carry = 0;
@@ -51,8 +51,8 @@ public class _5_SumLIst {
     }
 
     public static void approach2() throws Exception {
-        Node list1 = new Node(7).append(1).append(6); //617
-        Node list2 = new Node(5).append(9).append(2); //295 = 912 => 2-> 1-> 9->
+        Node list1 = new Node(9).append(7).append(8); //879
+        Node list2 = new Node(6).append(8).append(5); //586 = 1465 => 5-> 4-> 6-> 5->
         Node list3 = null;
         Node last = null;
         int num1 = 0;
