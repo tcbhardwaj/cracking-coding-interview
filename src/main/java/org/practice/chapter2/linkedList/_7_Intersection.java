@@ -10,6 +10,10 @@ public class _7_Intersection {
         Node commonNode = new Node(5);
         Node list1 = new Node(1).append(commonNode).append(5);
         Node list2 = new Node(1).append(2).append(commonNode).append(5);
+        approach1(list1, list2);
+    }
+
+    public static void approach1(Node list1, Node list2) {
         Set<Node> set1 = new HashSet<>();
         boolean isIntersection = false;
 
