@@ -19,7 +19,7 @@ public class ThreadTest {
             }
         });
 
-        t1.start();
+        t1.start(); 
         t2.start();
     }
 }
