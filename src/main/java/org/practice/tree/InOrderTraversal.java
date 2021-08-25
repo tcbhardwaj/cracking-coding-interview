@@ -27,7 +27,7 @@ public class InOrderTraversal {
 
     }
 
-    public static void inOrderRecursive(Node<String> root) {
+    public static void inOrderRecursive(Node root) {
 
         if(root == null){
             return;
@@ -37,6 +37,17 @@ public class InOrderTraversal {
         inOrderRecursive(root.getRightChild());
 
     }
+
+//    public static void inOrderRecursive(Node<Integer> root) {
+//
+//        if(root == null){
+//            return;
+//        }
+//        inOrderRecursive(root.getLeftChild());
+//        System.out.print(root + "->");
+//        inOrderRecursive(root.getRightChild());
+//
+//    }
 
     public static void inOrder(Node<String> root) {
         if(root == null)
